@@ -2,7 +2,7 @@ import javaposse.jobdsl.dsl.DslFactory
 
 DslFactory dsl = this
 
-String projectName = 'jenkins-pipeline-empty'
+String projectName = 'Patrick/First-Project/jenkins-pipeline-empty'
 
 dsl.job("${projectName}-build") {
 	deliveryPipelineConfiguration('Build', 'Build and Upload')
